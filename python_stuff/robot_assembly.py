@@ -2,6 +2,10 @@ import pybullet as p
 import pybullet_data
 import time
 import numpy as np
+import os
+
+abs_path = os.getcwd()
+print(abs_path)
 
 # -----------------------------
 # PyBullet setup
@@ -23,8 +27,8 @@ link_mass = 1.0
 # -----------------------------
 # Create 2-DOF SCARA using createMultiBody
 # -----------------------------
-base_collision_shape = p.createCollisionShape(p.GEOM_MESH, fileName="F:/projekty/Robotic_arm_reimagined/stl/B1.obj", meshScale=[base_scale, base_scale, base_scale])
-base_visual_shape = p.createVisualShape(p.GEOM_MESH, fileName="F:/projekty/Robotic_arm_reimagined/stl/B1.obj", meshScale=[base_scale, base_scale, base_scale], rgbaColor=[0.5, 0.5, 0.5, 1])
+base_collision_shape = p.createCollisionShape(p.GEOM_MESH, fileName=abs_path+"/stl/B1.obj", meshScale=[base_scale, base_scale, base_scale])
+base_visual_shape = p.createVisualShape(p.GEOM_MESH, fileName=abs_path+"/stl/B1.obj", meshScale=[base_scale, base_scale, base_scale], rgbaColor=[0.5, 0.5, 0.5, 1])
 collision_shape_1 = p.createCollisionShape(p.GEOM_BOX, halfExtents=[L1/2, 0.02, 0.02])
 visual_shape_1 = p.createVisualShape(p.GEOM_BOX, halfExtents=[L1/2, 0.02, 0.02], visualFramePosition=[L1/2, 0, 0], rgbaColor=[0.2, 0.6, 0.8, 1])
 collision_shape_2 = p.createCollisionShape(p.GEOM_BOX, halfExtents=[L2/2, 0.02, 0.02])

@@ -1,6 +1,9 @@
-- sterowanie (ale to dużo później)
-- łapy (większe, koła zębate zamiast paska)
-- przedrukować niektóre elementy na prostszą geometrie (co by druk był estetyczniejszy); model mały
-- zmiana chwytaka co coś co działa w obie strony bez użycia recepturki 
+- sterowanie (ale to dużo później),
+- łapy (większe, koła zębate zamiast paska),
+- przedrukować niektóre elementy na prostszą geometrie (co by druk był estetyczniejszy); model mały,
+- zmiana chwytaka co coś co działa w obie strony bez użycia recepturki,
 - do serwa łokcia, przykręcanie od zewnątrz; to samo w przypadku ramienia, 
-- przeprojektować podstawę do modelu dużego; otwór pod przycisk, pod inną płytkę,
+- przeprojektować podstawę do modelu dużego; otwór pod przycisk, pod inną płytkę, niepotrzebna ściana ogranicza kable,
+- więcej miejsca na serwa duże wszędzie, 
+- przykręcany okrąg do podstawy, 
+- poprawić łącza stawów, żeby serwa wchodziły głębiej (wieloklin), 
